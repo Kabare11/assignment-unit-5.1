@@ -14,7 +14,7 @@ const me = {
   lastName: 'Kabare',
   hasSiblings: true,
   shoeCount: 8,
-  favThreeFoods: ('Spagheti' 'Chicken' 'Rice')
+  favThreeFoods: ('Spagheti', 'Chicken', 'Rice'),
 
   // TODO - add properties here
 };
