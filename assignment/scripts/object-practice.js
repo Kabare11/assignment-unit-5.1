@@ -12,12 +12,18 @@ const me = {
 
   firstName: 'Abdulahi',
   lastName: 'Kabare',
+  hobby: 'Soccer',
+  favColor: 'Blue',
   hasSiblings: true,
-  shoeCount: 8,
-  favThreeFoods: ('Spagheti', 'Chicken', 'Rice'),
+  shoeCount: 11,
+
+
+  favThreeFoods: ['Spagheti', 'Chicken', 'Rice'],
 
   // TODO - add properties here
 };
+
+me.shoeCount += 1
 console.log('A little about me:', me);
 
 /* 2. Accessing object properties.
@@ -35,13 +41,22 @@ console.log(fullName)
   - Console.log your last favorite food 
 */
 
+console.log(me.favThreeFoods[0]);
+console.log(me.favThreeFoods[2]);
+console.log(me.shoeCount);
+
+
+
+
 
 
 /* 4. Change a property of an existing object.
   - Console.log your current shoe count.
+  console.log(me.shoeCount)
   - Guess what?! You just got a new pair of shoes!!!
   - Set your object's shoeCount to be what it was plus 1
   - Console.log your updated shoe count. 
+  console.log(me.shoeCount)
 */
 
 
