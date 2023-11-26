@@ -44,8 +44,9 @@ console.log(fullName)
 console.log(me.favThreeFoods[0]);
 console.log(me.favThreeFoods[2]);
 console.log(me.shoeCount);
+me.favColor = 'White'
 
-
+console.log(me)
 
 
 
